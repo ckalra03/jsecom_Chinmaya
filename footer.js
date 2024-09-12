@@ -2,9 +2,12 @@ const footerHTML = `
   <footer class="section-footer">
     <div class="footer-container container">
       <div class="content_1">
-        <img src="./images/logo.png" alt="logo" />
+        <div class="logo-container">
+        <span class="kalra">CK</span>
+        <span class="store">STORE</span>
+    </div>
         <p>
-          Welcome to Thapa EcomStore, <br />
+          Welcome to CK EcomStore, <br />
           your ultimate destination for
           <br />
           cutting-edge gadgets!
@@ -41,7 +44,7 @@ const footerHTML = `
     </div>
     <div class="f-design">
       <div class="f-design-txt">
-        <p>Design and Code by Thapa Technical</p>
+        <p>Design and Code by CK Technical</p>
       </div>
     </div>
   </footer>`;

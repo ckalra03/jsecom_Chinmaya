@@ -4,6 +4,31 @@
   box-sizing: border-box;
 }
 
+.logo-container {
+  display: flex;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border: 4px solid #000;
+  border-radius: 8px;
+}
+
+.logo-container span {
+  font-size: 1em;
+  margin: 0;
+  letter-spacing: 7px;
+}
+
+.store {
+  color: #000;
+  background-color: #fff;
+  padding: 5px 10px;
+  margin-left: 7px;
+  border-radius: 5px;
+  letter-spacing: 2px;
+}
+
 :root {
   font-family: "Urbanist", sans-serif;
   line-height: 1.5;
